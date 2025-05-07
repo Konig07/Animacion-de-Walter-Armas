@@ -23,9 +23,9 @@
             height: 300px;
             background: url('/shenlong_with_balls.png') no-repeat ;
             background-size: contain;
-            animation: glow 1.5s infinite alternate, small-move 3s infinite linear;
+            animation: small-move 3s infinite linear;
             filter:drop-shadow(0 0 5px #00ff00) drop-shadow(0 0 10px #00ff00) drop-shadow(0 0 20px #00ff00) drop-shadow(0 0 40px #00ff00);
-            z-index: 1;
+            transition: all 1.5s ease-in-out;
         }
 
         @keyframes small-move {
